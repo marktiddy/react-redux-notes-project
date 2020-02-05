@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NotesForm from "../notes-form/notes-form";
 import AllNotes from "../all-notes/all-notes";
+import NewModule from "../new-module/new-module";
 
 export default class Notes extends Component {
   render() {
@@ -10,6 +11,8 @@ export default class Notes extends Component {
         <NotesForm />
         <hr />
         <AllNotes />
+        <hr />
+        <NewModule />
       </React.Fragment>
     );
   }
